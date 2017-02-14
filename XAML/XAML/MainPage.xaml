@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XAML"
+             x:Class="XAML.MainPage"
+>
+
+  <ScrollView Orientation ="Vertical" >
+   
+  <StackLayout
+    VerticalOptions="Center"
+    HorizontalOptions="Center"
+    
+    >
+    <StackLayout.BackgroundColor>
+      <Color>
+      <OnPlatform x:TypeArguments="Color" Android="Black" WinPhone="Black" iOS="Black"></OnPlatform>
+      </Color>
+    </StackLayout.BackgroundColor>
+    <StackLayout.Children>
+      <Label Text="My mothers name is" VerticalOptions = "FillAndExpand" FontSize="50"/>
+      <Label Text="Monica" VerticalOptions ="FillAndExpand" TextColor="Red" FontAttributes="Bold" FontSize="70"></Label>
+      <Label Text="she is a OO Programmer aswell." VerticalOptions ="FillAndExpand" FontSize="50"></Label>
+      <Label Text="My fathers name is" VerticalOptions="FillAndExpand" FontSize="50"></Label>
+      <Label Text="Gary" VerticalOptions ="FillAndExpand" TextColor="Yellow" FontAttributes="Bold" FontSize="70"></Label>
+      <Label Text="he sells computer parts for a company called SIGMA solutions" VerticalOptions ="FillAndExpand" FontSize="50"></Label>
+      <Label Text="My sisters name is" VerticalOptions = "FillAndExpand" FontSize="50"/>
+      <Label Text="Sydney" VerticalOptions ="FillAndExpand" TextColor="Green" FontAttributes="Bold" FontSize="70"></Label>
+      <Label Text="shes okay i guess haha" VerticalOptions ="FillAndExpand" FontSize="50"></Label>
+      <Label Text="My dogs name is" VerticalOptions ="FillAndExpand" FontSize="50"></Label>
+      <Label Text="Zoey" VerticalOptions ="FillAndExpand" TextColor="Aqua" FontAttributes="Bold" FontSize="70"></Label>
+      <Label Text="she is a black lab, golden retriever and chow mix" VerticalOptions ="FillAndExpand" FontSize="50"></Label>
+      <Label Text="My uncle on my moms side name is" VerticalOptions = "FillAndExpand" FontSize="50"/>
+      <Label Text="Jarod" VerticalOptions ="FillAndExpand" TextColor="Purple" FontAttributes="Bold" FontSize="70"></Label>
+      <Label Text="He likes to pheasant hunt for fun" VerticalOptions = "FillAndExpand" FontSize="50"/>
+    
+    </StackLayout.Children>
+   
+  </StackLayout>
+  </ScrollView>
+  
+  
+ 
+
+</ContentPage>
